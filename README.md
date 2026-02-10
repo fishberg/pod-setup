@@ -1,7 +1,7 @@
 # pod-setup
 
-```
-set -ex # exit on error + verbose
+```bash
+set -ex    # exit on error + verbose
 sudo apt purge -y 'nvidia*'
 sudo apt autoremove -y
 sudo apt upgrade -y
